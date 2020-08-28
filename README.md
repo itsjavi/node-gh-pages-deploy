@@ -6,7 +6,7 @@ Node script for publishing a directory into the project's gh-pages branch.
 
 ```bash
 
-yarn add -D https://github.com/itsjavi/node-gh-pages-publish#1.1.0
+yarn add -D https://github.com/itsjavi/node-gh-pages-publish#1.2.0
 
 ```
 

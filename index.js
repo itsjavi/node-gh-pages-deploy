@@ -4,8 +4,9 @@
 const { exec } = require("child_process");
 const path = require("path");
 
-const projectDir = path.resolve(__dirname, '/../../');
-const pkg = require(projectDir + 'package.json')
+const projectDir = path.resolve(__dirname + '/../../');
+
+const pkg = require(projectDir + '/package.json')
 const tmpDir = projectDir + '/tmp';
 const codeDir = path.resolve(projectDir, pkg.ghPagesDeploy.directory);
 
@@ -13,11 +14,9 @@ const runCmd = (cmd) => {
   exec(cmd, (error, stdout, stderr) => {
     if (error) {
       console.log(`error: ${error.message}`);
-      //return;
     }
     if (stderr) {
       console.log(`stderr: ${stderr}`);
-      //return;
     }
     console.log(`stdout: ${stdout}`);
   });
