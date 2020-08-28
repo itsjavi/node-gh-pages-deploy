@@ -1,6 +1,6 @@
 {
   "name": "gh-pages-publish",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": {
     "url": "https://github.com/itsjavi/node-gh-pages-publish",
     "type": "git"
