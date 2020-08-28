@@ -24,10 +24,16 @@ In your `package.json` you can configure the deployment like this:
 
 ```json
 {
-	"ghPagesDeploy": {
-    	"repository": "git@github.com:foo/bar.git", // repository where to publish
-    	"directory": "./build", // local relative directory to publish
-    	"commitMessage": "the commit message for the gh-pages branch"
-  	}
+  "ghPagesDeploy": {
+    "repository": "git@github.com:foo/bar.git",
+    "directory": "./build",
+    "commitMessage": "the commit message for the gh-pages branch"
+  }
 }
 ```
+
+Options:
+
+- repository: where to publish the gh-pages branch
+- directory: directory to publish (relative path)
+- commitMessage: commit message for every commit in gh-pages
