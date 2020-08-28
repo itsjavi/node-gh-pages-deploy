@@ -7,6 +7,6 @@
   },
   "license": "MIT",
   "bin": {
-  	"gh-pages-publish": "./index.js"
+    "gh-pages-publish": "./index.js"
   }
 }
